@@ -26,7 +26,8 @@
     <div class="sidebar sidebarfont">
 
 
-        <img src="img/caralogo.png" alt="" class='center'>
+        <img src="img/caralogo.png" alt="" class='logo center' id="caralogo">
+        <img src="img/caralogo2.png" alt="" class='largelogo'>
 
         <ul class="sidebarfont">
             <li>
@@ -41,7 +42,8 @@
             <li id="contactlistlink">
               Contact
             </li>
-
+</ul>
+      <ul id="bottomlinks">
             <li class="bottomsidebarfont bottom green">
               Account Login | Create an Account
             </li>
@@ -66,7 +68,24 @@
     <div class="threecolumns defaultfont">
           <div class="col1">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquam eos assumenda earum quibusdam dignissimos ex recusandae suscipit obcaecati? Mollitia odio sit, totam perspiciatis voluptates quo ea vitae illo qui.</p>
+            <form action="">
+<select name="healthservices" id="firstdropdown" class="dropdown" style="background-color: transparent;
+    background: url('img/dropdown.png') no-repeat right; background-size: cover;">
+  <option value="">U.S. Department of Health</option>
+  <option value="">Department of Health and Human Services</option>
+  <option value="">ObamaCare</option>
+
+</select><!-- end of first selection -->
+
+<br /><br />
+
+<select name="links" id="seconddropdown" class="dropdown" style="background-color: transparent;
+    background: url('img/dropdown.png') no-repeat right; background-size: cover;">
+      <option value="">Nurse Blog</option>
+      <option value="">Health Recovery</option>
+      <option value="">LinkedIn Nurse Groups</option>
+</select><!-- end of second selection -->
+            </form>
 
           </div><!-- end of column1 -->
 
@@ -145,7 +164,17 @@
 
 
       <footer>
-      This is the footer text
+      <ul class="footertext">
+            <li>Welcome.</li>
+            <li>Skills Portfolio.</li>
+            <li>Health Resources.</li>
+            <li>Contact</li>
+
+
+
+      </ul><!-- end of footertext -->
+
+      <p id="privacypolicy">Privacy Policy | 2016 All Rights Reserved</p>
 
 
       </footer>

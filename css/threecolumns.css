@@ -2,10 +2,15 @@ html {
   margin: 0;
   padding: 0;
   border: 0;
+  overflow-x: hidden;
 }
 
 html, body {
   height: 100%;
+}
+
+.largelogo{
+  display: none;
 }
 
 .content {
@@ -60,6 +65,27 @@ height: 1px;
 .green {
   color: #58A238;
 }
+
+
+select.dropdown{
+  background-color: transparent;
+}
+
+.dropdown{
+  width: 94%;
+  height: 60px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-appearance: none;
+  padding: 6%;
+
+
+}
+
+#firstdropdown{
+  margin-top: 8%;
+}
+
 
 /* ======== FONTS  ============== */
 
@@ -154,6 +180,25 @@ h1 {
   border-bottom: 1px solid #ccc;
 }
 
+.footertext{
+  margin-left: -2%;
+}
+
+
+.footertext li{
+  float: left;
+  display: inline;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#privacypolicy{
+  color: white;
+  float: right;
+  font-size: 16px;
+}
+
 /* ========= END OF FONTS ============ */
 
 * {
@@ -226,7 +271,7 @@ body{
 
   .sidebar{
     width: 100%;
-    height: 50vh;
+    height: 127vh;
     background-color: #fafafa;
     text-align: center;
     padding-top: 2%;
@@ -235,6 +280,14 @@ body{
 
 
   }
+
+ul {
+  margin-left: 34%;
+}
+
+#contactlistlink {
+    margin-bottom: 12%;
+}
 
   .col1, .col2, .col3{
     width: 100%;
@@ -270,6 +323,58 @@ body{
   }
 } /* end of resolution of 56px */
 
+@media screen and (max-width: 219px){
+  #caralogo{
+    display: none;
+  }
+  .largelogo {
+    display: block;
+    width: 84% !important;
+  }
+} /* end of 219px */
+
+@media screen and (max-width: 316px){
+  ul {
+    margin-left: 7% !important;
+  }
+} /* end of 316px */
+
+@media screen and (max-width: 360px){
+  form {
+      width: 118%;
+  }
+
+  .sidebar {
+    height: 77vh !important;
+    margin-left: -10%;
+  }
+} /* end of 360px */
+
+@media screen and (max-width: 372px){
+  select.dropdown{
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 450px){
+  ul {
+    margin-left: 26%;
+  }
+}
+
+@media screen and (max-width: 585px){
+  .sidebar{
+    height: 100vh;
+  }
+}
+
+
+@media screen and (max-width: 660px){
+  .sidebar{
+    height: 115vh;
+  }
+}
+
 @media screen and (max-width: 863px){
   .flower{
     background-size: 44%;
@@ -285,6 +390,37 @@ body{
     color: #58A238;
     font-size: 14px;
     letter-spacing: 1px;
+  }
+  form{
+    margin-top: -5%;
+  }
+
+  .dropdown {
+    width: 50%;
+    height: 10%;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-appearance: none;
+    padding: 2%;
+    }/* end of drop down styling */
+
+    #firstdropdown{
+      background-position: 99% -6px;
+      width: 48% !important;
+    }
+
+    #seconddropdown {
+      width: 48% !important;
+    }
+
+    #caralogo {
+    width: 31% !important;
+  }
+}/* end of max-width 863 */
+
+@media screen and (max-width: 864px){
+  #bottomlinks {
+      margin-top: 4% !important;
   }
 }
 
@@ -336,6 +472,15 @@ body{
     bottom: 0;
   }
 
+  ul {
+    margin-left: 7%;
+  }
+
+  #bottomlinks{
+    margin-top: 107%;
+  }
+
+
 }/* end of 864px resolution */
 
 
@@ -345,6 +490,16 @@ body{
   }
 } /* end of 887 px */
 
+@media screen and (max-width: 908px){
+  #firstdropdown{
+    width: 101%;
+  }
+
+  #seconddropdown{
+    width: 101%;
+  }
+}
+
 @media screen and (max-width: 925px){
   .flower{
     padding-left: 34%;
@@ -353,6 +508,12 @@ body{
     background-position: 78% !important;
   }
 } /* end of 925px */
+
+@media screen and (max-width: 960px){
+  #caralogo{
+    width: 100%;
+  }
+}
 
 @media screen and (max-width: 1029px){
   .following{
@@ -365,6 +526,11 @@ body{
   .following {
     background-position: 53%;
   }
+
+  #bottomlinks {
+      margin-top: 104%;
+  }
+
 } /* end of 1175px */
 
 
