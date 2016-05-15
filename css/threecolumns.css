@@ -45,6 +45,14 @@ li#lastitem{
   margin-bottom: 3%;
 }
 
+.man{
+  margin-top: 50%;
+}
+
+#man2{
+  margin-top: -6%;
+}
+
 .bottom{
   margin-bottom: 7%;
 }
@@ -90,6 +98,7 @@ select.dropdown{
 #firstdropdown{
   margin-top: 8%;
 }
+
 
 
 /* ======== FONTS  ============== */
@@ -436,6 +445,14 @@ ul {
     width: 99%;
     float: none;
   }
+
+  .man{
+    display: none;
+  }
+
+  .threecolumns{
+    margin-bottom: -41% !important;
+  }
 }/* end of max-width 863 */
 
 @media screen and (max-width: 864px){
@@ -490,6 +507,7 @@ ul {
     text-align: center;
     padding-top: 2%;
     bottom: 0;
+    margin-top: 10%;
   }
 
   ul {
@@ -502,6 +520,12 @@ ul {
 
 
 }/* end of 864px resolution */
+
+@media screen and (max-width: 882px){
+  .threecolumns{
+    margin-bottom: 2%;
+  }
+}
 
 
 @media screen and (max-width: 887px){
@@ -529,15 +553,42 @@ ul {
   }
 } /* end of 925px */
 
+@media screen and (max-width: 937px){
+  .footer{
+    margin-top: 25% !important;
+  }
+}/* end  of 937px */
+
 @media screen and (max-width: 960px){
   #caralogo{
     width: 100%;
   }
 }
 
+@media screen and (max-width: 993px){
+  .man{
+    margin-top: 129% !important;
+  }
+}/* end of 993 */
+@media screen and (max-width: 1018px){
+  .footer{
+      margin-top: 20%;
+  }
+
+  .man {
+    margin-top: 116%;
+  }
+} /* end of 1018px resolution */
+
 @media screen and (max-width: 1029px){
   .following{
     margin-top: 6%;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  .man{
+    margin-top: 90%;
   }
 }
 
