@@ -46,6 +46,80 @@ height: 1px;
 margin-top: 15%;
 }
 
+.title{
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+/* ======== CONTENT FOR THE SKILLS SECTION  ============== */
+.contactcontent, .informationcontent, .biocontent, .designcontent, .personalcontent {
+  margin-bottom: 35%;
+  width: 100%;
+}
+
+.contact1, .info1, .bio1{
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.contact2, .info2, .bio2{
+  float: right;
+  width: 50%;
+  position: relative;
+}
+
+#carasface{
+  width: 59%;
+  float: left;
+}
+
+.circle{
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-color: #58A238;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.greycircle{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background-color: #CCC;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+.design1, .personal1{
+  float: left;
+  position: relative;
+  width: 40%;
+}
+
+
+.design2, .personal2{
+  float: right;
+  position: relative;
+  width: 60%;
+}
+
+.skills{
+  margin: 0;
+  padding: 0;
+}
+
+.hobbies{
+  width: 100px;
+}
+
+
 /* ======== FONTS  ============== */
 
 h1 {
