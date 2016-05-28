@@ -15,6 +15,12 @@ h1 {
   text-transform: uppercase;
 }
 
+h3{
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 35px;
+  margin: 0;
+}
+
 ul{
   list-style-type: none;
   text-align: left;
@@ -425,10 +431,30 @@ footer ul li {
   }
 }
 
+@media screen and (max-width: 888px){
+  h3{
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 1126px){
+  h3{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1142px){
+  #bigquote{
+    width: 88%;
+  }
+}
+
 @media screen and (max-width: 1175px){
   #bottomlinks {
       margin-top: 104%;
   }
 } /* end of 1175px */
+
+
 
 /* ======= END OF MEDIA QUERIES ========= */
