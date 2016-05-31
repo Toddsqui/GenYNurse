@@ -46,6 +46,14 @@ ul {
   list-style: none;
   line-height: 35px;
 }
+
+.topheader{
+  background-color: white;
+  height: 12vh;
+  border-bottom: 1px solid #ccc;
+}
+
+
 #bigcaralogo {
   margin-left: 25%;
 }
@@ -83,4 +91,16 @@ ul {
   color: white;
   background-color: black;
   height: 10vh;
+}
+
+/* media queries */
+
+@media screen and (max-width: 767px){
+  #header {
+    display: none;
+  }
+  .container{
+    text-align: center;
+  }
+
 }
