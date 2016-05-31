@@ -46,19 +46,15 @@ ul {
   list-style: none;
   line-height: 35px;
 }
-
-.topheader{
+.topheader {
   background-color: white;
   height: 12vh;
   border-bottom: 1px solid #ccc;
 }
-
-
 #bigcaralogo {
   margin-left: 25%;
 }
-
-#secondhalf{
+#secondhalf {
   margin-top: 70%;
 }
 .readmore {
@@ -71,22 +67,27 @@ ul {
   font-size: 12px;
   margin-top: 5%;
 }
-
-.topheader{
+.topheader {
   background-color: white;
   height: 12vh;
   border-bottom: 1px solid #ccc;
   text-align: center;
 }
-
-.maincontent{
+.maincontent {
   background-color: white;
   padding: 20px;
+}
+.socialmediagroup {
+  position: relative;
+  margin-left: 25%;
+}
+.socialmediaicons {
+  margin-right: 10%;
 }
 
 /* footer text */
 
-.footertext{
+.footertext {
   padding: 20px;
   color: white;
   background-color: black;
@@ -95,12 +96,11 @@ ul {
 
 /* media queries */
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   #header {
     display: none;
   }
-  .container{
+  .container {
     text-align: center;
   }
-
 }
