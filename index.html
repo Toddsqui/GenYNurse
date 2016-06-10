@@ -1,67 +1,845 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>The Genn Y Nurse</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+        <meta name="description" content="FlexyCodes - FlexyCard vCard Template. Creating my personal page!"/>
+        <!-- CSS | bootstrap -->
+        <!-- Credits: http://getbootstrap.com/ -->
+        <link  rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <!-- CSS | font-awesome -->
+        <!-- Credits: http://fortawesome.github.io/Font-Awesome/icons/ -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <!-- CSS | animate -->
+        <!-- Credits: http://daneden.github.io/animate.css/ -->
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+        <!-- CSS | Normalize -->
+        <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+        <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
+        <!-- CSS | Colors -->
+        <link rel="stylesheet" type="text/css" href="css/colors/green.css" />
+        <!-- CSS | Style -->
+        <!-- Credits: http://themeforest.net/user/FlexyCodes -->
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <!-- CSS | prettyPhoto -->
+        <!-- Credits: http://www.no-margin-for-errors.com/ -->
+        <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css"/> 
+        <!-- CSS | Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css' />
+        <!-- Favicon 
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon/favicon.ico">-->
+        <!--[if IE 7]>
+                <link rel="stylesheet" type="text/css" href="css/icons/font-awesome-ie7.min.css"/>
+        <![endif]-->
+        <style>
+            @media only screen and (max-width : 1200px){
+                .resp-vtabs ul.resp-tabs-list {
+                    margin-left: 0 !important;
+                }
+            }
 
-<!doctype html>
-<html>
-<head>
-    <title>The Gen Y Nurse</title>
+            @media only screen and (max-width : 991px){
+                .resp-vtabs .resp-tabs-container {
+                    margin-left: 13px;
+                }
+            }
 
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+            @media only screen and (min-width : 800px) and (max-width : 991px){
+                .resp-vtabs .resp-tabs-container {
+                    width:89%;
+                }
+            }
 
-    <link rel="stylesheet" href="css/singlecolumn.css" />
-    <link rel="stylesheet" href="css/fonts.css">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+            @media only screen and (max-width : 800px){
 
-</head>
+                .widget-profil {
+                    float: none !important;
+                }
+                .resp-vtabs .resp-tabs-container {
+                    width:100%;
+                }
+            }
 
-<body>
+            .widget-profil {
+                float: left;
+            }
 
-  <div class="container">
-    <div class="header defaultheader">
-HEADER
+            .resp-vtabs ul.resp-tabs-list {
+                margin-left: 12px;
+            }			
 
-
-    </div><!-- end of header -->
-    <div class="sidebar sidebarfont">
-
-
-            SIDEBAR
-
-    </div><!-- end of sidebar -->
-
-
-
-    <div class="twocolumns defaultfont">
-          <div class="col1">
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquam eos assumenda earum quibusdam dignissimos ex recusandae suscipit obcaecati? Mollitia odio sit, totam perspiciatis voluptates quo ea vitae illo qui.</p>
-
-          </div><!-- end of column1 -->
-
-
-
-
-
-
-
-
-    </div><!-- end of three columns -->
-
-    <div class="clearfix"></div>
-<div class="footer normalfont">
-
-
-<footer>
-This is the footer text
-
-
-</footer>
-</div><!-- end of footer -->
-
-
-
-
-  </div><!-- end of container -->
-
-</body>
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+                <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <!-- Laoding page -->
+        <div id="preloader"><div id="spinner"></div></div>
+        <!-- .slideshow -->
+        <!--<ul class="cb-slideshow" id="cb_slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div></div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></div></li>
+            <li><span>Image 05</span><div></div></li>
+            <li><span>Image 06</span><div></div></li>
+        </ul> -->
+        <!-- /.slideshow --> 
+        <!-- .wrapper --> 
+        <div class="wrapper">
+            <!--- .Content --> 
+            <section class="tab-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">   
+                                <div class="col-md-3 widget-profil">
+                                    <div class="row">
+                                        <!-- Profile Image -->
+                                        <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+                                            <div class="image-holder one" id="pic_prof_1"  style="display:none">
+                                                <img class="head-image up circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image up-left circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image left circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image down-left circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image down circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image down-right circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image right circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image up-right circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                                <img class="head-image front circle" src="http://placehold.it/150x150" width="150" height="150" alt="" />
+                                            </div>
+                                            <!-- style for simple image profile -->		
+                                            <div class="circle-img" id="pic_prof_2"></div>
+                                        </div>
+                                        <!-- End Profile Image -->
+                                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                                            <!-- Profile info -->
+                                            <div id="profile_info">
+                                                <h1 id="name" class="transition-02">The Gen Y Nurse</h1>
+                                            </div>
+                                            <!-- End Profile info -->  
+                                            <!-- Profile Description -->
+                                            <div id="profile_desc">
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac risus nibh. Donec adipiscing luctus tur
+                                                </p>
+                                                <p>
+                                                    Lorem ipsum dolor sit amet, consectetur adipiscing eli
+                                                </p>
+                                            </div>
+                                            <!-- End Profile Description -->  
+                                            <!-- Name -->
+                                            <div id="profile_social">
+                                                <h6>My Social Profiles</h6>
+                                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                                <a href="#"><i class="fa fa fa-google-plus"></i></a>
+                                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                <a href="#"><i class="fa fa-pinterest"></i></a>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <!-- End Name -->  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-9 flexy_content" style="padding-left: 0;padding-right: 0;">
+                                    <!-- verticalTab menu -->
+                                    <div id="verticalTab">
+                                        <ul class="resp-tabs-list">
+                                            <li class="tabs-home hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a home" data-tab-name="home">			
+                                                <span class="tite-list">Home</span>
+                                                <i class="fa fa-home icon_menu icon_menu_active"></i>
+                                            </li>
+                                            <li class="tabs-profile hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="profile">			
+                                                <span class="tite-list">profile</span>
+                                                <i class="fa fa-user icon_menu"></i>
+                                            </li>
+                                            <li class="tabs-resume hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="resume"> 
+                                                <span class="tite-list">resume</span>
+                                                <i class="fa fa-tasks icon_menu"></i>
+                                            </li>
+                                            <li class="tabs-blog hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="blog">
+                                                <span class="tite-list">blog</span>
+                                                <i class="fa fa-briefcase icon_menu"></i>
+                                            </li>
+                                            <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
+                                                <span class="tite-list">contact</span>
+                                                <i class="fa fa-envelope icon_menu"></i> 
+                                            </li>
+                                        </ul>
+                                        <!-- /resp-tabs-list -->
+                                        <!-- resp-tabs-container --> 
+                                        <div class="resp-tabs-container">
+                                            <!-- profile -->
+                                            <div id="home" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Welcome To My Site</h1>
+                                                <div class="row top-p">
+                                                    <article id="post-1" class="blog-article">                    
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-12 post_media">
+                                                                    <div class="post-format-icon">
+                                                                        <a href="#" class="item-date"><span class="fa fa-picture-o"></span></a>
+                                                                    </div>
+                                                                    <div class="media">
+                                                                        <div class="he-wrap tpl2">
+                                                                            <div id="carousel-1" class="carousel slide" data-ride="carousel">
+                                                                                <div class="carousel-inner">
+                                                                                    <div class="item active">
+                                                                                        <img src="images/banner.png" alt="The Gen Y Nurse Logo" />
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-md-12 post_content" style="text-align: center;">
+                                                                    <div class="content post_format_standart">
+                                                                        <div class="top_c ">
+                                                                            <div class="blog-content">
+                                                                                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo...</p><br />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>	
+                                                                    <a href="#post-1" style="float: none;" class="read_m">Read More <i class='glyphicon glyphicon-chevron-right'></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <!-- End .profile -->
+                                            <!-- profile -->
+                                            <div id="profile" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">About - GEN YS</h1>
+                                                <div class="row top-p">
+                                                    <article id="post-1" class="blog-article">                    
+                                                        <div class="col-md-12">
+                                                            <div class="row">
+                                                                <div class="col-md-12 post_content">
+                                                                    <div class="content post_format_standart">
+                                                                        <div class="top_c">
+                                                                            <div class="blog-content" style="text-align: center;">
+                                                                                <h2>The New Consumers Of Healthcare</h2><br />
+                                                                                <p><i class="fa fa-quote-left"></i> Pellentesque elit quam, faucibus vel dolor vel, pretium imperdiet sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce eget magna sed erat dignissim efficitur. Morbi urna dui, fermentum eu sem id, accumsan ultrices nisl. Donec non tellus lectus. Ut ultricies tellus sed maximus lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor placerat facilisis. Nulla et libero non diam gravida pulvinar vitae ut nisl. Sed semper purus id dui fringilla, et bibendum enim tincidunt. Donec et varius sapien. Fusce sit amet arcu consectetur, vulputate justo sed, pellentesque mauris. Cras feugiat velit vitae lobortis viverra.</p><br />
+                                                                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus lobortis, volutpat justo at, facilisis nisl. Nullam euismod, est id sodales vestibulum, tellus odio pulvinar eros, eu pretium odio lorem at odio. Mauris quis leo malesuada orci placerat ornare. Fusce porttitor nibh iaculis porttitor tristique. Praesent tempus quam id arcu tempus euismod. Suspendisse metus mi, cursus sed accumsan sed, facilisis quis ipsum. Aliquam eu urna sed dolor ullamcorper rutrum. Maecenas varius ac sapien eu tempus. Nullam malesuada facilisis sapien a elementum. Ut nec magna eu magna lobortis condimentum vitae vel odio. Integer tincidunt dolor enim, vel pharetra metus sagittis in. Etiam a lacinia eros, sit amet faucibus libero. Nullam interdum sapien at massa mollis consequat.</p><br />
+                                                                                <p> Vestibulum id turpis id magna rhoncus fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris blandit ac ipsum nec bibendum. Sed metus eros, egestas vitae mi vitae, iaculis suscipit nunc. Maecenas sed leo ante. Duis eleifend non nisl vitae porta. Sed suscipit feugiat augue sed finibus. Morbi placerat varius nibh vel placerat. Sed dictum interdum dolor eu facilisis. Phasellus in mollis arcu, vitae vestibulum massa. Nam porta imperdiet libero vel sagittis. Nulla tempus nisl quis libero malesuada tempus.</p><br />
+                                                                                <p> Curabitur tristique sed ligula at convallis. Nunc ac egestas libero. Nulla facilisi. Vestibulum at sagittis magna, quis lobortis massa. Curabitur ultricies nibh a dignissim condimentum. Phasellus efficitur, quam sed consequat varius, velit nunc pulvinar nisi, vitae iaculis leo justo sit amet nibh. Nulla vel diam viverra, porta nisl non, laoreet nisl.</p><br />
+                                                                                <p> Maecenas vitae odio varius diam condimentum dictum. Duis id ultrices risus. Praesent et pulvinar dolor, vel auctor dui. Mauris quis dolor nunc. Proin feugiat sapien vel tincidunt convallis. Nulla scelerisque ut ligula at commodo. Aenean consectetur, felis nec euismod finibus, felis ex bibendum risus, id ultrices nunc lectus nec velit. Donec imperdiet aliquet nisi. Ut imperdiet eu nisl vel egestas. Pellentesque vitae odio porttitor, fringilla metus at, auctor diam. Mauris tellus velit, porttitor non condimentum sed, ultrices ac orci. Praesent cursus eleifend lorem, sed tempor mauris tincidunt nec.</p><br />
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>	
+                                                               </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                            <!-- End .profile -->
+                                            <!-- .resume -->
+                                            <div id="resume" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Portfolito</h1> 
+                                                <div class="row">
+                                                    <!-- .resume-right -->
+                                                    <div class="col-md-6">
+                                                        <div class="col-md-12 profile-l" style="text-align: center;">
+                                                            <div class="text_content" style="float: none;">CARA SQUITIERI</div>
+                                                            <div class="col-md-12"><img src="images/profile2.png" alt="CARA SQUITIERI" /></div>
+                                                        </div>
+                                                        <div class="row top-p">
+                                                            <div class="col-md-12 profile-l">
+                                                                <!--About me-->
+                                                                <div class="title_content">
+                                                                    <div class="text_content">Contact</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <ul class="about">
+                                                                    <li>
+                                                                        <i class="glyphicon glyphicon-phone"></i>
+                                                                        <label> Phone</label>
+                                                                        <span class="value">+123 (21) 1234-5678</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="glyphicon glyphicon-envelope"></i>
+                                                                        <label> Email</label>
+                                                                        <span class="value">email@gmail.com</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="glyphicon glyphicon-globe"></i>
+                                                                        <label> Website</label>
+                                                                        <span class="value"><a href="#" target="_blank">www.website.com</a></span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-facebook-square"></i>
+                                                                        <label> Facebook</label>
+                                                                        <span class="value"><a href="#" target="_blank">https://fb.com/address</a></span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-linkedin-square"></i>
+                                                                        <label> Linkedin</label>
+                                                                        <span class="value"><a href="#" target="_blank">https://linkedin.com/user_name</a></span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-skype"></i>
+                                                                        <label> Skype</label>
+                                                                        <span class="value"><a href="#">skype-name</a></span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row top-p">
+                                                            <div class="col-md-12 profile-l">
+                                                                <!--About me-->
+                                                                <div class="title_content">
+                                                                    <div class="text_content">Information</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <ul class="about">
+                                                                    <li>
+                                                                        <i class="glyphicon glyphicon-calendar"></i>
+                                                                        <label> Date of Birth</label>
+                                                                        <span class="value">June 3, 1980</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-user"></i>
+                                                                        <label> Marital Status</label>
+                                                                        <span class="value">Single</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="glyphicon glyphicon-credit-card"></i>
+                                                                        <label> Nationality</label>
+                                                                        <span class="value">American</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <i class="fa fa-map-marker"></i>
+                                                                        <label> Adress</label>
+                                                                        <span class="value"> Leonia, NJ, USA</span>
+                                                                        <div class="clear"></div>
+                                                                    </li>
+                                                                    
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <!-- .title_content -->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Education</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Computer Science <span class="duration"><i class="fa fa-calendar color"></i> 2007 - 2011</span></h5>
+                                                                <h6><span class="fa fa-book"></span> Name of Institute</h6>
+                                                            </li>
+                                                            <li>
+                                                                <h5>MBBS <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2015</span></h5>
+                                                                <h6><span class="fa fa-book"></span> Name of Institute</h6>
+                                                            </li>
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                        <br />
+                                                        <!-- .title_content -->
+                                                        <div class="title_content">
+                                                            <div class="text_content">Experience</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                                        <!-- .attributes -->
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <h5>Designation <span class="duration"><i class="fa fa-calendar color"></i> 2011 - 2012</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
+                                                                <p>Address...</p>
+                                                            </li><br />
+                                                            <li class="first">
+                                                                <h5>Designation <span class="duration"><i class="fa fa-calendar color"></i> 2012 - 2013</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
+                                                                <p>Address...</p>
+                                                            </li><br />
+                                                            <li class="first">
+                                                                <h5>Designation <span class="duration"><i class="fa fa-calendar color"></i> 2013 - 2014</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
+                                                                <p>Address...</p>
+                                                            </li><br />
+                                                            <li class="first">
+                                                                <h5>Designation <span class="duration"><i class="fa fa-calendar color"></i> 2014 - Now</span></h5>
+                                                                <h6><span class="fa fa-briefcase"></span> Name of Company</h6>
+                                                                <p>Address...</p>
+                                                            </li><br />
+                                                        </ul>
+                                                        <!-- /.attributes -->
+                                                    </div>
+                                                    <!-- /.resume-right -->
+                                                    <!-- .resume-left -->
+                                                    <div class="col-md-6 resume-left">    
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="margin-bottom:5px">
+                                                            <div class="text_content">Biography</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <ul class="attributes">
+                                                            <li class="first">
+                                                                <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo...</p>
+                                                            </li>
+                                                        </ul><br />
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">Languages</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                                        <div class="skills">
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>English</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix " data-percent="60%">
+                                                                <div class="skillbar-title"><span>Russian</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">60%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                        </div><br />
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">Design skills</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                                        <div class="skills">
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>Adobe Photoshop</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="90%">
+                                                                <div class="skillbar-title"><span>Adobe Illustrateur</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">90%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="65%">
+                                                                <div class="skillbar-title"><span>Adobe After Effects</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">65%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="35%">
+                                                                <div class="skillbar-title"><span>Affinity Designer</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">35%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>Coreldraw</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="90%">
+                                                                <div class="skillbar-title"><span>Drawing</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">90%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="65%">
+                                                                <div class="skillbar-title"><span>Typography</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">65%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="35%">
+                                                                <div class="skillbar-title"><span>Layout</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">35%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>Styling</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="90%">
+                                                                <div class="skillbar-title"><span>Photography</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">90%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                        </div>
+                                                        <!-- .title_content -->
+                                                        <div class="title_content" style="float: none;">
+                                                            <div class="text_content">Personal Skills</div>
+                                                            <div class="clear"></div>
+                                                        </div>
+                                                        <!-- /.title_content -->
+                                                        <div class="skills">
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="95%">
+                                                                <div class="skillbar-title"><span>Creativity</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">95%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix " data-percent="60%">
+                                                                <div class="skillbar-title"><span>Cooperation</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">60%</div>
+                                                            </div>
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix" data-percent="85%">
+                                                                <div class="skillbar-title"><span>Communication</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">85%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                            <!-- .skillbar -->
+                                                            <div class="skillbar clearfix " data-percent="75%">
+                                                                <div class="skillbar-title"><span>Organizing</span></div>
+                                                                <div class="skillbar-bar"></div>
+                                                                <div class="skill-bar-percent">75%</div>
+                                                            </div>
+                                                            <!-- /.skillbar -->
+                                                        </div><br />
+                                                        <div class="col-md-12" id="services">
+                                                            <div class="title_content">
+                                                                <div class="text_content">HOBBIES &amp; INTERESTS</div>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                            <div class="col-md-3 pack-service">
+                                                                <div class="service">
+                                                                    <div class="service-icon"><i class="fa fa-music"></i></div>
+                                                                    <div class="service-detail">
+                                                                        <h6>Music</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 pack-service">
+                                                                <div class="service">
+                                                                    <div class="service-icon"><i class="fa fa-edit"></i></div>
+                                                                    <div class="service-detail">
+                                                                        <h6>Sketch</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 pack-service">
+                                                                <div class="service">
+                                                                    <div class="service-icon"><i class="fa fa-arrows-alt"></i></div>
+                                                                    <div class="service-detail">
+                                                                        <h6>Explore</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-3 pack-service">
+                                                                <div class="service">
+                                                                    <div class="service-icon"><i class="fa fa-eye"></i></div>
+                                                                    <div class="service-detail">
+                                                                        <h6>Creativity</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>   
+                                                    </div>
+                                                    <!-- /.resume-left -->
+                                                </div>
+                                            </div>
+                                            <!-- End .resume -->
+                                            <!-- .portfolio -->
+                                            <div id="portfolio" class="content_2">
+                                                <!-- .title -->
+                                                <h1 class="h-bloc">Health Resources</h1>
+                                                <!-- .container-portfolio -->
+                                                <div class="container-portfolio">
+                                                    <!-- client reference -->
+                                                    <div class="row">
+                                                        <div class="col-md-7">
+                                                            <div class="col-md-6" style="margin-top: 20px;">
+                                                                <!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
+                                                                <div id="contact-status"></div>
+                                                                <form action="" id="contactform">
+                                                                    <p class="form-group" id="contact-name">
+                                                                        <select class="form-control name-contact">
+                                                                            <option>Option 1</option>
+                                                                            <option>Option 2</option>
+                                                                            <option>Option 3</option>
+                                                                            <option>Option 4</option>
+                                                                        </select>
+                                                                    </p>
+                                                                    <p class="form-group" id="contact-name">
+                                                                        <select class="form-control name-contact">
+                                                                            <option>Option 1</option>
+                                                                            <option>Option 2</option>
+                                                                            <option>Option 3</option>
+                                                                            <option>Option 4</option>
+                                                                        </select>
+                                                                    </p>
+                                                                </form>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="title_content" style="margin-bottom:5px">
+                                                                    <div class="text_content">Summary</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <p>Lorem ipsum dolor sit amet, what is this...?? </p>
+                                                            </div>
+                                                            <div class="reference clearfix"> 
+                                                                <!-- .title_content -->
+                                                                <div class="title_content" style="margin-bottom:5px">
+                                                                    <div class="text_content">Opinion</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <!-- /.title_content -->
+                                                                <ul>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                                                                        <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default will model text, and a search for</p>
+                                                                        <span>John Doe, UX Designer</span>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                                                                        <p>very nice colleague she always helped me out if i didnt know something editors now use Lorem Ipsum as their default”</p>
+                                                                        <span>Leia Calvi, UX Designer</span>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/100x100" class="img_reference" width="100" height="100" alt="">
+                                                                        <p>old colleague and now close friend, she is really sweet and helpfull packages and web page editors now use Lorem Ipsum as</p>
+                                                                        <span>Maria Callas, UX Designer</span>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-5">
+                                                            <div class="reference companies clearfix"> 
+                                                                <!-- .title_content -->
+                                                                <div class="title_content" style="margin-bottom:5px">
+                                                                    <div class="text_content">Companies you follow</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <!-- /.title_content -->
+                                                                <ul>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/50x50" class="img_reference2" width="75" height="75" alt="">
+                                                                        <p style="font-weight: bold;">FDA</p>
+                                                                        <p>Research</p>
+                                                                        <span>Following <i class="fa fa-check"></i></span>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/50x50" class="img_reference2" width="75" height="75" alt="">
+                                                                        <p style="font-weight: bold;">FDA</p>
+                                                                        <p>Research</p>
+                                                                        <span>Following <i class="fa fa-check"></i></span>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/50x50" class="img_reference2" width="75" height="75" alt="">
+                                                                        <p style="font-weight: bold;">FDA</p>
+                                                                        <p>Research</p>
+                                                                        <span>Following <i class="fa fa-check"></i></span>
+                                                                    </li>
+                                                                    <li class="clearfix">
+                                                                        <img src="http://placehold.it/50x50" class="img_reference2" width="75" height="75" alt="">
+                                                                        <p style="font-weight: bold;">FDA</p>
+                                                                        <p>Research</p>
+                                                                        <span>Following <i class="fa fa-check"></i></span>
+                                                                    </li>
+                                                                </ul>
+                                                            </div><br />
+                                                            <img src="http://placehold.it/250x125" />
+                                                        </div>  
+                                                    </div>
+                                                </div>
+                                                <!-- /.container-portfolio -->
+                                            </div>
+                                            <!-- End .portfolio -->
+                                            <!-- .contact -->
+                                            <div id="contact" class="content_2">
+                                                <h1 class="h-bloc">Contact - Contact Me</h1>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="row" id="contact-user">
+                                                            <div class="col-md-5">
+                                                                <div class="contact-info">
+                                                                    <!--<h3 class="main-heading"><span>Contact info</span></h3>-->
+                                                                    <div class="title_content" style="float: none;">
+                                                                        <div class="text_content">GET IN TOUCH</div>
+                                                                        <div class="clear"></div>
+                                                                    </div>
+                                                                    <ul>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-map-marker"></i> Adress:</span> San Francisco , CA.<br /><br /></li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-envelope"></i> Email:</span> email@gmail.com</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-phone"></i> Phone:</span> +123 456 789 111</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-globe"></i> Website:</span> www.website.com</li>
+                                                                        <li><span class="span-info"><i class="glyphicon glyphicon-comment"></i> Skype:</span> cara-squi</li>
+                                                                    </ul>
+                                                                </div>
+                                                                <!-- /Contact Info -->
+                                                                <div class="clear"></div>
+                                                                <!--<h3 class="main-heading" style="margin-left: 22px;"><span>Follow me</span></h3>-->
+                                                                <div class="title_content tiltle_contacts" style="float: none;">
+                                                                    <div class="text_content">Follow me</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <div id="profile_social">
+                                                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                                                    <a href="#"><i class="fa fa fa-google-plus"></i></a>
+                                                                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                                                                    <a href="#"><i class="fa fa-pinterest"></i></a>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-7">
+                                                                <!-- Contact Form -->
+                                                                <div class="title_content" style="float: none;">
+                                                                    <div class="text_content">SEND US A MESSAGE</div>
+                                                                    <div class="clear"></div>
+                                                                </div>
+                                                                <div class="contact-form">
+                                                                    <!--<h3 class="main-heading"><span>Let's keep in touch</span></h3>-->
+                                                                    <div id="contact-status"></div>
+                                                                    <form action="" id="contactform">
+                                                                        <p class="form-group" id="contact-name">
+                                                                            <label for="name">Your Name</label>
+                                                                            <input type="text" name="name" class="form-control name-contact" id="inputSuccess" placeholder="Your Name" />
+                                                                        </p>
+                                                                        <p class="form-group" id="contact-email"> 
+                                                                            <label for="email">Your Email</label>
+                                                                            <input type="text" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Email Address" />
+                                                                        </p>
+                                                                        <p class="form-group" id="contact-email"> 
+                                                                            <label for="email">Telephone Number</label>
+                                                                            <input type="tel" name="email" class="form-control email-contact" id="inputSuccess" placeholder="Telephone Number" />
+                                                                        </p>
+                                                                        <p class="form-group" id="contact-message">
+                                                                            <label for="message">Your Message</label>
+                                                                            <textarea name="message" cols="88" rows="6" class="form-control message-contact" id="inputError" placeholder="Your Message"></textarea>
+                                                                        </p>
+                                                                        <input type="reset" name="reset" value="CLEAR" class="reset">
+                                                                        <!-- <input type="submit" name="submit" value="SEND MESSAGE" class="submit">-->
+                                                                        <section class="button-demo" style="display: inline-block;">
+                                                                            <button class="ladda-button submit send_email" name="submit" data-color="green" data-style="expand-left">SEND MESSAGE</button>
+                                                                        </section>
+                                                                    </form>
+                                                                </div>
+                                                                <!-- /Contact Form -->
+                                                            </div>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                            </div>
+                                            <!-- End .contact -->
+                                        </div>
+                                        <!-- End #resp-tabs-container --> 
+                                    </div><!-- End verticalTab -->
+                                </div><!-- End flexy_content -->
+                            </div><!-- End row -->
+                        </div><!-- End col-md-12 -->
+                    </div><!-- End row -->
+                </div><!-- End container -->
+            </section>
+            <!-- End Content -->
+        </div>
+        <!-- End wrapper -->
+        <!-- jquery | jQuery 1.11.0 -->
+        <!-- Credits: http://jquery.com -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Js | bootstrap -->
+        <!-- Credits: http://getbootstrap.com/ -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script> 
+        <!-- Js | jquery.cycle -->
+        <!-- Credits: https://github.com/malsup/cycle2 -->
+        <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+        <!-- jquery | rotate and portfolio -->
+        <!-- Credits: http://jquery.com -->
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script> 
+        <script type="text/javascript" src="js/HeadImage.js"></script>
+        <!-- Js | easyResponsiveTabs -->
+        <!-- Credits: http://webtrendset.com/demo/easy-responsive-tabs/Index.html -->
+        <script type="text/javascript" src="js/easyResponsiveTabs.min.js"></script> 	
+        <!-- Js | mCustomScrollbar -->
+        <!-- Credits: http://manos.malihu.gr/jquery-custom-content-scroller -->
+        <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>		
+        <!-- jquery | prettyPhoto -->
+        <!-- Credits: http://www.no-margin-for-errors.com/ -->
+        <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+        <!-- Js | gmaps -->
+        <!-- Credits: http://maps.google.com/maps/api/js?sensor=true-->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script type="text/javascript" src="js/gmaps.min.js"></script>
+        <!-- Js | Js -->
+        <!-- Credits: http://themeforest.net/user/FlexyCodes -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- code js for image rotate -->
+        <script type="text/javascript">
+            var mouseX;
+            var mouseY;
+            var imageOne;
+            /* Calling the initialization function */
+            $(init);
+            /* The images need to re-initialize on load and on resize, or else the areas
+             * where each image is displayed will be wrong. */
+            $(window).load(init);
+            $(window).resize(init);
+            /* Setting the mousemove event caller */
+            $(window).mousemove(getMousePosition);
+            /* This function is called on document ready, on load and on resize
+             * and initiallizes all the images */
+            function init() {
+                /* Instanciate the mouse position variables */
+                mouseX = 0;
+                mouseY = 0;
+                /* Instanciate a HeadImage class for every image */
+                imageOne = new HeadImage("one");
+            }
+            /* This function is called on mouse move and gets the mouse position. 
+             * It also calls the HeadImage function to display the correct image*/
+            function getMousePosition(event) {
+                /* Setting the mouse position variables */
+                mouseX = event.pageX;
+                mouseY = event.pageY;
+                /*Calling the setImageDirection function of the HeadImage class
+                 * to display the correct image*/
+                imageOne.setImageDirection();
+            }
+        </script>
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </body>
 </html>
